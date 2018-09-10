@@ -1,0 +1,55 @@
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: map-get($breakpoints, 'xl');
+  padding: rems(60px) rems(20px);
+  z-index: map_get($z-index, 'header');
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    background-color: $background-color;
+    z-index: map_get($z-index, 'behind');
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background-image: linear-gradient($background-color, $transparent);
+    z-index: map_get($z-index, 'behind');
+  }
+
+  &__actions {
+    position: absolute;
+    right: rems(20px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+  }
+
+  &__profile-icon{
+    width: 32px;
+    height: 32px;
+    background-color: $secondary-text-color;
+    border-radius: 50%;
+    margin-right: rems(20px);
+  }
+
+  &__menu {
+    position: absolute;
+    right: 0;
+    top: rems(30px);
+  }
+}

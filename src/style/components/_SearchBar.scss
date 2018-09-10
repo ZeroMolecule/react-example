@@ -1,0 +1,30 @@
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-shadow: $box-shadow;
+  background-color: $box-color;
+  height: 40px;
+  width: 100%;
+  max-width: 420px;
+
+  &__input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding-left: rems(18px);
+    padding-right: rems(53px);
+
+    &::placeholder{
+      color: $secondary-text-color;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    right: rems(18px);
+    font-size: rems(17px);
+    color: $secondary-text-color;
+    pointer-events: none;
+  }
+}

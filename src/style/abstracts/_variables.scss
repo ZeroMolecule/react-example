@@ -1,0 +1,29 @@
+$base-font-size: 16px;
+
+$breakpoints: (
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px
+) !default;
+
+$z-index: (
+  'behind': -10,
+  'header': 10,
+  'popup': 20,
+  'modal': 30,
+) !default;
+
+$transparent: transparent;
+$white: #ffffff;
+$black: #000000;
+
+$white-smoke: #F7F7F7;
+$white-smoke-darker: #eaeaea;
+
+$tomato: #FF5252;
+
+$cerulean: #c7c9d2;
+$manatee: #8F93A4;
+
+$biscay: #313754;

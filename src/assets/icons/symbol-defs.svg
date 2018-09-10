@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-angle-down" viewBox="0 0 16 32">
+<title>angle-down</title>
+<path d="M7.469 20.431l-7.25-7.363c-0.294-0.294-0.294-0.769 0-1.063l0.444-0.444c0.294-0.294 0.769-0.294 1.063 0l6.275 6.394 6.275-6.387c0.294-0.294 0.769-0.294 1.063 0l0.444 0.444c0.294 0.294 0.294 0.769 0 1.063l-7.25 7.362c-0.294 0.288-0.769 0.288-1.063-0.006z"></path>
+</symbol>
+<symbol id="icon-search" viewBox="0 0 32 32">
+<title>search</title>
+<path d="M20.64 22.912c-2.144 1.678-4.88 2.691-7.853 2.691-7.069 0-12.8-5.731-12.8-12.8s5.731-12.8 12.8-12.8c7.069 0 12.8 5.731 12.8 12.8 0 2.973-1.013 5.707-2.712 7.88l0.021-0.029 8.56 8.528-2.272 2.272-8.528-8.544zM12.8 22.4c5.302 0 9.6-4.298 9.6-9.6s-4.298-9.6-9.6-9.6v0c-5.302 0-9.6 4.298-9.6 9.6s4.298 9.6 9.6 9.6v0z"></path>
+</symbol>
+<symbol id="icon-plus" viewBox="0 0 32 32">
+<title>plus</title>
+<path d="M25.333 17.333h-8v8h-2.667v-8h-8v-2.667h8v-8h2.667v8h8v2.667z"></path>
+</symbol>
+</defs>
+</svg>

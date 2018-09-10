@@ -1,0 +1,70 @@
+.pokemon-list-item {
+  display: flex;
+  width: calc(100% / 5);
+
+  @include responsive('xl') {
+    width: calc(100% / 4);
+  }
+
+  @include responsive('lg') {
+    width: calc(100% / 3);
+  }
+
+  @include responsive('md') {
+    width: calc(100% / 2);
+  }
+
+  @include responsive('sm') {
+    width: calc(100% / 1);
+  }
+
+  &__link {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  &__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    background-color: $box-color;
+    box-shadow: $box-shadow;
+    padding: rems(20px);
+    margin: rems(20px);
+    transition: 0.25s;
+
+    &--create{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      box-shadow: none;
+      border: 2px dashed $secondary-text-color;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  &__name {
+    transition: 0.25s;
+  }
+
+  &__plus-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon{
+    color: $secondary-text-color;
+    font-size: rems(40px);
+  }
+
+}

@@ -1,0 +1,44 @@
+.pokemon-details {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-start;
+  padding: rems(20px);
+  background-color: $box-color;
+  box-shadow: $box-shadow;
+
+  &__image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding-right: rems(20px);
+  }
+
+  &__information {
+    flex: 1;
+    align-self: stretch;
+    position: relative;
+    padding-left: rems(20px);
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background-color: $line-color;
+    }
+
+  }
+
+  &__label {
+    padding: 0 rems(10px) rems(10px) 0;
+    color: $secondary-text-color;
+  }
+
+  &__value {
+    padding-bottom: rems(10px);
+  }
+
+}
